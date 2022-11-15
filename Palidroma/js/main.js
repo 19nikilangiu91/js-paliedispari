@@ -26,6 +26,8 @@ console.log(parolaReverse);
 let risultato = parolaRandom(parolaUtente);
 console.log(risultato);
 
+document.getElementById("output").innerHTML= `${risultato}`;
+
 // Andiamo a creare la nostra "Funzione".
 
 function parolaRandom(utenteParola){
